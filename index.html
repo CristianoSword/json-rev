@@ -5,13 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+
 </head>
 <body>
+
     
-    <h2>Criando um Objeto de uma string JSON</h2>
-    <h3>Dados do cliente</h3>
+    
+    <h2>Create Object JSON String</h2>
+    <h3>Data Client</h3>
 
     <p id="demo"></p>
 
 </body>
+
+<script>
+    let clienteTexto = '{	"nome": "Jaime",	"idade": 83,	"cidade": "São Paulo",	"estado": "SP",	"sexo": "Masc" }'
+ 
+    let cliente = JSON.parse(clienteTexto)
+
+    document.getElementById("demo").innerHTML =
+       '<strong> Nome:   </strong>'  + cliente.nome   + ',  '  + 
+       '<strong> Idade:  </strong>'  + cliente.idade  + ' - '  +
+       '<strong> Cidade: </strong>'  + cliente.cidade + '   '  + 
+       '<strong> Estado: </strong>'  + cliente.estado + '   '  +
+       '<strong> Sexo:   </strong>'  + cliente.sexo
+
+    </script>
+
 </html>
