@@ -4,26 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doc</title>
 
-
-
-</head>
-
-    <body>
-    <h1>Ler e obter dados um arquivo JSON</h1>
-    <h2>Uso do XMLHttpRequest para obter o conteúdo de um arquivo - Requisição AJAX.</h2>
-    <p>O conteúdo está escrito no formato JSON, e pode facilmente ser convertido em um objeto JavaScript.</p>
-    <p>Para converter o conteúdo JSON em um objeto JavaScript utilize o método JSON.parse().</p>
-    <hr/>
-    
-    <p id="demo"></p>
-    
-   
-    
-    <p>Acesse o arquivo JSON  <a href="/js rev DOM/json-rev/cliente.json" target="_blank">cliente.json</a></p>
-    
-    </body>
+         <title>Doc</title>
 
     <script>
         var xmlhttp = new XMLHttpRequest();
@@ -64,5 +46,20 @@
         xmlhttp.open("POST", "cliente.json", true);
         xmlhttp.send();
         </script>
+
+</head>
+
+    <body>
+        <h1>Ler e obter dados um arquivo JSON</h1>
+        <h2>Uso do XMLHttpRequest para obter o conteúdo de um arquivo - Requisição AJAX.</h2>
+        <p>O conteúdo está escrito no formato JSON, e pode facilmente ser convertido em um objeto JavaScript.</p>
+        <p>Para converter o conteúdo JSON em um objeto JavaScript utilize o método JSON.parse().</p>
+        <hr/>
+        
+        <p id="demo"></p>
+            
+        <p>Acesse o arquivo JSON  <a href="/js rev DOM/json-rev/cliente.json" target="_blank">cliente.json</a></p>
+        
+    </body>
 
 </html>
