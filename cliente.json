@@ -1,0 +1,13 @@
+{
+    "clientId": 1,
+    "cadastro": "2022-11-14",
+    "nome":"Maria",
+    "idade":17,
+    "cidade":"São Paulo",
+    "estado": "SP",	
+    "pets":[
+        { "animal":"cachorro", "nome":"Fido" },
+        { "animal":"gato", "nome":"Felix" },
+        { "animal":"hamster", "nome":"luzinha" }
+    ]
+}
